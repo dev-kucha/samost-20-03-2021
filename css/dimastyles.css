@@ -111,10 +111,10 @@
   .info {
     width: 221px;
     height: 57px;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 14px;
     line-height: 14px;
-    font-family: Roboto;
+    font-family: 'Roboto';
   }
   
   .section-two__btn {
