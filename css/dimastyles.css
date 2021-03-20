@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.section-two {
+  width: 969px;
+  height: 361px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.section-two__caption {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.section-two__content {
+  width: 941px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 221px;
+}
+
+.foto {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  background-size: cover;
+  border-radius: 50%;
+  font-weight: 100;
+}
+
+.svg1 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 88px;
+  top: 88px;
+  background: #ff4e50;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg2 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 88px;
+  top: 88px;
+  background: #19d4ca;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg3 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 88px;
+  top: 88px;
+  background: #ffa710;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg4 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 88px;
+  top: 88px;
+  background: #667df3;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__profile .m-name {
+  width: 221px;
+  height: 18px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 15px 0;
+  color: #000;
+}
+
+.content__profile .m-info {
+  width: 221px;
+  height: 57px;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Roboto";
+  color: #000;
+}
+
+.section-two__btn {
+  width: 180px;
+  height: 40px;
+  border: 2px solid #ff4e50;
+  border-radius: 40px;
+  color: #ff4e50;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.section-two__btn:hover {
+  color: white;
+  background-color: #ff4e50;
+  transition: all 0.2s ease-in-out;
+}
+
+.foto-1 {
+  background-image: url(../img/Bitmap.png);
+}
+
+.foto-2 {
+  background-image: url(../img/Bitmap2.png);
+}
+
+.foto-3 {
+  background-image: url(../img/Bitmap3.png);
+}
+
+.foto-4 {
+  background-image: url(../img/Bitmap4.png);
+}
+
+@media screen and (max-width: 1024px) {
+  .section-two {
+    height: 650px;
+    width: 100%;
+  }
+  .section-two__content {
+    height: 500px;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-two {
+    height: 1100px;
+  }
+  .section-two__content {
+    height: 900px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}
