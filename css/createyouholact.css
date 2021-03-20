@@ -1,0 +1,75 @@
+.createYouHolAct {
+    max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px maroon dotted;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+
+
+.createYouHolAct_caption {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #444444;
+    margin-bottom: 43px;
+}
+
+
+.createYouHolAct_text-question {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.createYouHolAct_form {
+    display: flex;
+    gap: 10px;
+}
+
+.createYouHolAct_email {
+    box-sizing: border-box;
+    width: 299px;
+    height: 40px;
+    radius:3px;
+    padding-left: 12px;
+    }
+.createYouHolAct_btn {
+    box-sizing: border-box;
+    width: 172.12px;
+    height: 40px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+border: none;
+}
+
+.createYouHolAct_btn:hover {
+    background: #FFFFFF;
+    color: #FF4E50;
+    border: #FF4E50 2px solid;
+}
+
+@media screen and (max-width:767px) {
+    .createYouHolAct_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .createYouHolAct_email {
+        width: 280px;
+    }
+}
