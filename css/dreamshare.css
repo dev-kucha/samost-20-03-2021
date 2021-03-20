@@ -1,0 +1,79 @@
+.container {
+    max-width:940px;
+    margin:0 auto;
+    padding:15px;
+}
+
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.block {
+    display:flex;
+    justify-content: space-around;
+}
+
+.block__item {
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin:5px;
+    border-radius: 4px;
+    background-image: url(../img/man.png);
+    background-size: cover;
+}
+
+.block__item:nth-child(2) {
+    border-radius: 4px;
+    background-image: url(../img/way.png);
+}
+
+.block__item:nth-child(3) {
+    border-radius: 4px;
+    background-image: url(../img/legs.png);
+}
+
+.button {
+    max-width:70px;
+    margin-left:25px;
+    background: #FF4E50;
+    outline:none;
+    border:0;
+    border-radius:40px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 10px;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.name {
+    padding:15px 25px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.info {
+    padding: 20px 25px 21px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 14px;
+    color: #E3E3E3;
+}
+@media screen and (max-width:767px){
+    .block {
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+    }
+    .block__item {
+        height:240px;
+    }
+}

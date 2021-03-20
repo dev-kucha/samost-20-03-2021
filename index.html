@@ -9,11 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
       rel="stylesheet"
     />
+    <!-- font-family: 'Montserrat', sans-serif; -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Document</title>
@@ -22,7 +22,38 @@
   <body>
     <header></header>
     <main>
-      <section></section>
+      <section>
+        <div class="container">
+          <p class="caption">How Dreamshare works?</p>
+          <div class="block">
+            <div class="block__item">
+              <button class="button">STEP 1</button>
+              <div class="name">Sed leo enim, condimentum</div>
+              <div class="info">
+                Quisque libero libero, dictum non turpis in, luctus semper
+                lorem. Donec rhoncus a leo sit amet facilisis.
+              </div>
+            </div>
+            <div class="block__item">
+              <button class="button">STEP 2</button>
+              <div class="name">Morbi velit risus</div>
+              <div class="info">
+                Nulla venenatis tempor dui in molestie. Nulla quis dictum purus,
+                sit amet porttitor est.
+              </div>
+            </div>
+            <div class="block__item">
+              <button class="button">STEP 3</button>
+              <div class="name">Sed leo enim, condimentum</div>
+              <div class="info">
+                Quisque libero libero, dictum non turpis in, luctus semper
+                lorem. Donec rhoncus a leo sit amet facilisis.
+              </m-div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section-two">
         <h2 class="section-two__caption">
           Meet a partner for your best holiday
@@ -47,12 +78,11 @@
                 </svg>
               </div>
             </div>
-            <h4 class="name">Bradley Hunter</h4>
-            <p class="info">
+            <h4 class="m-name">Bradley Hunter</h4>
+            <p class="m-info">
               Based in Chicago. I love playing tennis and loud music.
             </p>
           </div>
-
           <div class="content__profile">
             <div class="foto foto-2">
               <div class="svg2">
@@ -72,8 +102,8 @@
                 </svg>
               </div>
             </div>
-            <h4 class="name">Marie Bennett</h4>
-            <p class="info">
+            <h4 class="m-name">Marie Bennett</h4>
+            <p class="m-info">
               Currently living in Colorado. Lover of art, languages and
               travelling.
             </p>
@@ -98,8 +128,8 @@
                 </svg>
               </div>
             </div>
-            <h4 class="name">Diana Wells</h4>
-            <p class="info">
+            <h4 class="m-name">Diana Wells</h4>
+            <p class="m-info">
               Living in Athens, Greece. I love black and white classics,
               chillout music and green tea.
             </p>
@@ -124,8 +154,8 @@
                 </svg>
               </div>
             </div>
-            <h4 class="name">Christopher Pierce</h4>
-            <p class="info">
+            <h4 class="m-name">Christopher Pierce</h4>
+            <p class="m-info">
               Star Wars fanatic. I have a persistent enthusiasm to create new
               things.
             </p>
@@ -134,7 +164,28 @@
         <button class="section-two__btn">See other partners</button>
       </section>
       <section></section>
-      <section></section>
+      <section class="createYouHolAct">
+        <div class="caption createYouHolAct_caption">
+          Crate your holiday activity
+        </div>
+        <div class="createYouHolAct_text-question">
+          Hi! What are your holiday interests?
+        </div>
+        <form class="createYouHolAct_form" action="#">
+          <input
+            class="createYouHolAct_email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your insterests"
+          />
+          <input
+            class="createYouHolAct_btn"
+            type="button"
+            value="Search partners"
+          />
+        </form>
+      </section>
     </main>
     <footer></footer>
   </body>
