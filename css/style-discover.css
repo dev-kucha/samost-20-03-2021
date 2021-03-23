@@ -62,49 +62,49 @@ main {
  .discover__img-one {
      width: 32%;
      height: 32%;
-     background: url(/img/sport.jpg) center no-repeat;
+     background: url(../img/sport.jpg) center no-repeat;
      background-size: cover;
  }
 
  .discover__img-two {
     width: 32%;
     height: 32%;
-    background: url(/img/health.jpg) center no-repeat;
+    background: url(../img/health.jpg) center no-repeat;
     background-size: cover;
 }
 
 .discover__img-three {
     width: 32%;
     height: 32%;
-    background: url(/img/extreme.jpg) center no-repeat;
+    background: url(../img/extreme.jpg) center no-repeat;
     background-size: cover;
 }
 
 .discover__img-four {
     width: 32%;
     height: 31%;
-    background: url(/img/games.jpg) center no-repeat;
+    background: url(../img/games.jpg) center no-repeat;
     background-size: cover;
 }
 
 .discover__img-five {
     width: 66%;
     height: 31%;
-    background: url(/img/culture.jpg) center no-repeat;
+    background: url(../img/culture.jpg) center no-repeat;
     background-size: cover;
 }
 
 .discover__img-six {
     width: 66%;
     height: 32%;
-    background: url(/img/relax.jpg) center no-repeat;
+    background: url(../img/relax.jpg) center no-repeat;
     background-size: cover;
 }
 
 .discover__img-seven {
     width: 32%;
     height: 32%;
-    background: url(/img/travelling.jpg) center no-repeat;
+    background: url(../img/travelling.jpg) center no-repeat;
     background-size: cover;
 }
 
